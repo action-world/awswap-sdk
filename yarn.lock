@@ -1918,6 +1918,15 @@
     "@ethersproject/properties" "^5.1.0"
     "@ethersproject/strings" "^5.1.0"
 
+"@farswap/farswap-core@../farswap-core":
+  version "0.1.0"
+  dependencies:
+    "@ethersproject/solidity" "^5.4.0"
+    "@truffle/hdwallet-provider" "^1.5.0"
+    truffle "^5.1.41"
+    truffle-flattener "^1.4.4"
+    truffle-hdwallet-provider "^1.0.17"
+
 "@graphql-tools/batch-delegate@^6.2.4", "@graphql-tools/batch-delegate@^6.2.6":
   version "6.2.6"
   resolved "https://registry.yarnpkg.com/@graphql-tools/batch-delegate/-/batch-delegate-6.2.6.tgz#fbea98dc825f87ef29ea5f3f371912c2a2aa2f2c"
@@ -2212,15 +2221,6 @@
   dependencies:
     normalize-path "^2.0.1"
     through2 "^2.0.3"
-
-"@hoswap/hoswap-core@../hoswap-core":
-  version "0.1.0"
-  dependencies:
-    "@ethersproject/solidity" "^5.4.0"
-    "@truffle/hdwallet-provider" "^1.5.0"
-    truffle "^5.1.41"
-    truffle-flattener "^1.4.4"
-    truffle-hdwallet-provider "^1.0.17"
 
 "@improbable-eng/grpc-web@^0.12.0":
   version "0.12.0"

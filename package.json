@@ -1,8 +1,8 @@
 {
-  "name": "@hoswap/sdk",
+  "name": "@farswap/sdk",
   "license": "MIT",
   "version": "2.3.2",
-  "description": "🛠 An SDK for building applications on top of Pancakeswap.",
+  "description": "🛠 An SDK for building applications on top of farswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -22,7 +22,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@hoswap/hoswap-core": "../hoswap-core",
+    "@farswap/farswap-core": "../farswap-core",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
