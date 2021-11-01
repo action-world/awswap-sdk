@@ -1918,7 +1918,7 @@
     "@ethersproject/properties" "^5.1.0"
     "@ethersproject/strings" "^5.1.0"
 
-"@farswap/farswap-core@../farswap-core":
+"@awswap/awswap-core@../awswap-core":
   version "0.1.0"
   dependencies:
     "@ethersproject/solidity" "^5.4.0"
